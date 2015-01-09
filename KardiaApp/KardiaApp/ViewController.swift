@@ -253,7 +253,13 @@ class ViewController: UIViewController, LineChartDelegate {
         */
         
         // Open socket connection
+<<<<<<< HEAD
         socket = SocketIOClient(socketURL: "http://kardia.io")
+=======
+
+        socket = SocketIOClient(socketURL: "http://10.6.29.229:8080")
+
+>>>>>>> Rebasing
         socket.connect()
         
         // Listen for response events from the server.
