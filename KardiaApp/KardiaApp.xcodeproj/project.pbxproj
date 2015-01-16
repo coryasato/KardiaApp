@@ -15,6 +15,9 @@
 		48B407E61A5B55FD00D9D060 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B407E51A5B55FD00D9D060 /* CFNetwork.framework */; };
 		48B407E81A5B560E00D9D060 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B407E71A5B560E00D9D060 /* libicucore.dylib */; };
 		48BD91AA1A607142006FAD39 /* DateTimeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD91A91A607142006FAD39 /* DateTimeHelpers.swift */; };
+		48BD91B01A674A91006FAD39 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD91AD1A674A91006FAD39 /* Gradient.swift */; };
+		48BD91B11A674A91006FAD39 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD91AE1A674A91006FAD39 /* Polygon.swift */; };
+		48BD91B21A674A91006FAD39 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD91AF1A674A91006FAD39 /* TableViewController.swift */; };
 		7651E8031A52132E002DD7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651E8021A52132E002DD7FC /* AppDelegate.swift */; };
 		7651E8051A52132E002DD7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7651E8041A52132E002DD7FC /* ViewController.swift */; };
 		7651E8081A52132E002DD7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7651E8061A52132E002DD7FC /* Main.storyboard */; };
@@ -49,6 +52,9 @@
 		48B407E71A5B560E00D9D060 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		48B407E91A5B565C00D9D060 /* Kardia-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kardia-Bridging-Header.h"; sourceTree = "<group>"; };
 		48BD91A91A607142006FAD39 /* DateTimeHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateTimeHelpers.swift; path = KardiaApp/DateTimeHelpers.swift; sourceTree = "<group>"; };
+		48BD91AD1A674A91006FAD39 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = KardiaApp/Gradient.swift; sourceTree = "<group>"; };
+		48BD91AE1A674A91006FAD39 /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Polygon.swift; path = KardiaApp/Polygon.swift; sourceTree = "<group>"; };
+		48BD91AF1A674A91006FAD39 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = KardiaApp/TableViewController.swift; sourceTree = "<group>"; };
 		7651E7FD1A52132E002DD7FC /* KardiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KardiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7651E8011A52132E002DD7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7651E8021A52132E002DD7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 		7651E7F41A52132E002DD7FC = {
 			isa = PBXGroup;
 			children = (
+				48BD91AD1A674A91006FAD39 /* Gradient.swift */,
+				48BD91AE1A674A91006FAD39 /* Polygon.swift */,
+				48BD91AF1A674A91006FAD39 /* TableViewController.swift */,
 				48BD91A91A607142006FAD39 /* DateTimeHelpers.swift */,
 				48B407E91A5B565C00D9D060 /* Kardia-Bridging-Header.h */,
 				48B407E71A5B560E00D9D060 /* libicucore.dylib */,
@@ -288,12 +297,15 @@
 			files = (
 				7651E82D1A5251C9002DD7FC /* BLEDiscovery.swift in Sources */,
 				CB53176C1A5260EF001EC481 /* DotCALayer.swift in Sources */,
+				48BD91B21A674A91006FAD39 /* TableViewController.swift in Sources */,
 				48B407E01A5B55A600D9D060 /* SwiftRegex.swift in Sources */,
 				7651E8051A52132E002DD7FC /* ViewController.swift in Sources */,
 				7651E8031A52132E002DD7FC /* AppDelegate.swift in Sources */,
 				48B407DB1A5B559B00D9D060 /* SRWebSocket.m in Sources */,
 				48BD91AA1A607142006FAD39 /* DateTimeHelpers.swift in Sources */,
 				7651E82C1A5251C9002DD7FC /* BLEService.swift in Sources */,
+				48BD91B11A674A91006FAD39 /* Polygon.swift in Sources */,
+				48BD91B01A674A91006FAD39 /* Gradient.swift in Sources */,
 				CB53176A1A5260A3001EC481 /* LineChart.swift in Sources */,
 				48B407DF1A5B55A600D9D060 /* SocketIOClient.swift in Sources */,
 			);
